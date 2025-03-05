@@ -6,3 +6,86 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
+
+body {
+  background: linear-gradient(#134d71,#78a7c6,#f7e4bf);
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0px;
+  width: 100%;
+}
+
+header h1 {
+  color: white;
+}
+
+section {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+form {
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+}
+
+form h2 {
+  color: white;
+}
+
+.form-input {
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+fieldset input {
+  margin-right: 10px;
+}
+
+fieldset label {
+  font-style: italic;
+}
+
+button {
+  background: #134d71;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 20px;
+  font-size: medium;
+}
+
+
+.message {
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+img {
+  width: 75px;
+  height: auto;
+}

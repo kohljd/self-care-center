@@ -77,12 +77,15 @@ button {
   font-size: medium;
 }
 
-
-.message {
+.message-box {
   background-color: white;
   padding: 30px;
   border-radius: 5px;
   text-align: center;
+}
+
+.message-buttons {
+  margin-top: 27px;
 }
 
 img {
